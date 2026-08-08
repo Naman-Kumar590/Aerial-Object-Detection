@@ -1,0 +1,26 @@
+# ---------------------------------------------------------
+# YOLOv10 VisDrone Fine-Tuning Requirements
+# ---------------------------------------------------------
+
+# Core Framework (Includes YOLOv10 architecture)
+ultralytics>=8.2.0
+
+# Deep Learning & Tensor Operations
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.23.5
+
+# Image Processing & Handling
+opencv-python>=4.6.0
+Pillow>=10.3.0
+
+# Data Visualization & Log Parsing
+matplotlib>=3.5.0
+seaborn>=0.11.0
+pandas>=1.1.4
+
+# Utilities & System
+PyYAML>=5.3.1
+tqdm>=4.66.3
+psutil>=5.9.0
+scipy>=1.4.1
